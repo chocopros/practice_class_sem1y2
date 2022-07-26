@@ -5,9 +5,8 @@ function App() {
 
   return (
     <div className="container">
-
       <Card_count />
-      <Card_count />
+     
 
     </div>
   )
