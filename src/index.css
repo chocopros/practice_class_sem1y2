@@ -70,6 +70,7 @@
 }
 .on{
   background-color:red;
+  box-shadow: 2px 2px 20px 2px rgb(251, 30, 30);
 }
 .off{
   background-color:rgb(184, 212, 212);
