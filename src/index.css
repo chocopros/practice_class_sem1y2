@@ -34,6 +34,23 @@
 
 }
 
+.card_passw{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 150px;
+
+  border: solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(81, 78, 78);
+
+}
+
 .card h2{
   font-size: 70px;
 }
@@ -74,4 +91,17 @@
 }
 .off{
   background-color:rgb(184, 212, 212);
+}
+.passw_input{
+  width: 100px;
+  border-radius: 10px;
+}
+
+.passw button{
+  margin-left: 10px;
+}
+.card_passw{
+  display: flex;
+  justify-content:center;
+  gap: 15px;
 }
