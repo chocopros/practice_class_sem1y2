@@ -1,11 +1,14 @@
 import { useState } from 'react'
+import Card_count from './assets/components/Card_count'//Import Card
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>Anmy</h1>
+    <div className="container">
+      <Card_count />
+      <Card_count />
+
     </div>
   )
 }
