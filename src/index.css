@@ -62,7 +62,7 @@
   width: 100px;
   aspect-ratio: 1;
   border-radius: 50%;
-  border: solid 1px black;
+  border: solid 2px black;
 }
 .on{
   background-color:red;
