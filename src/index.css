@@ -100,7 +100,7 @@
 .passw_input{
   width: 150px;
   border-radius: 10px;
-  padding: 5px 0;
+  padding: 0 0 0 10px ;
 }
 
 .passw button{
