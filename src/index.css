@@ -95,6 +95,8 @@
 .passw_input{
   width: 100px;
   border-radius: 10px;
+  font-size: 16px;
+  padding: 0 5px;
 }
 
 .passw button{

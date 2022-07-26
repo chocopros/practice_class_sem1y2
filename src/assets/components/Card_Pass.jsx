@@ -12,7 +12,10 @@ const Card_Pass = () => {
     }
 
   }
-
+  const getRandomElement = arr  => {
+    const indexRamdon= Math.floor(Math.random ()* arr.length)
+    return
+}
   return (
     <div className='card_passw'>
         <label htmlFor="pass">Contraseña</label>
