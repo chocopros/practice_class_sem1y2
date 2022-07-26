@@ -38,6 +38,12 @@
   font-size: 70px;
 }
 
+.btn-options2{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(235, 230, 230);
+}
 .btn-options{
   display: flex;
   gap: 10px;
@@ -55,5 +61,16 @@
   font-size: 17px;
   font-weight: bold;
 
-
+}
+.circle{
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+.on{
+  background-color:red;
+}
+.off{
+  background-color:rgb(184, 212, 212);
 }
