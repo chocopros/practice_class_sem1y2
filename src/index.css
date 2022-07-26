@@ -25,13 +25,17 @@
   align-items: center;
 
   width: 200px;
-  height: 100px;
+  height: 150px;
 
   border: solid 1px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgb(81, 78, 78);
 
+}
+
+.card h2{
+  font-size: 70px;
 }
 
 .btn-options{
@@ -41,4 +45,15 @@
 
 .btn-options button{
   padding: 5px 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(235, 230, 230);
+}
+
+.btn-options button:hover{
+  transition: .4s;
+  font-size: 17px;
+  font-weight: bold;
+
+
 }
