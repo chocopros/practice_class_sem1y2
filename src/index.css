@@ -7,6 +7,7 @@
 .container {
   
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
@@ -16,7 +17,7 @@
   background-color: rgb(0, 0, 0, 0.5)
 
 }
-
+/************* CARD 1 y 2 ************/
 .card{
 
   display: flex;
@@ -24,25 +25,8 @@
   justify-content: space-around;
   align-items: center;
 
-  width: 200px;
-  height: 150px;
-
-  border: solid 1px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(81, 78, 78);
-
-}
-
-.card_passw{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 250px;
 
   border: solid 1px;
   background-color: white;
@@ -52,15 +36,9 @@
 }
 
 .card h2{
-  font-size: 70px;
+  font-size: 100px;
 }
 
-.btn-options2{
-  padding: 5px 10px;
-  border-radius: 10px;
-  border-style: none;
-  background-color: rgb(235, 230, 230);
-}
 .btn-options{
   display: flex;
   gap: 10px;
@@ -79,6 +57,7 @@
   font-weight: bold;
 
 }
+/******************* CARD LED  ***********************/
 .circle{
   width: 100px;
   aspect-ratio: 1;
@@ -92,18 +71,53 @@
 .off{
   background-color:rgb(184, 212, 212);
 }
-.passw_input{
-  width: 100px;
+
+.btn-options2{
+  padding: 10px 15px;
   border-radius: 10px;
+<<<<<<< HEAD
   font-size: 16px;
   padding: 0 5px;
+=======
+  border-style: none;
+  background-color: rgb(235, 230, 230);
+}
+
+/************* CARD PASSWORD ************/
+.card_passw{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+  height: 250px;
+
+  border: solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(81, 78, 78);
+
+}
+
+.passw_input{
+  width: 150px;
+  border-radius: 10px;
+  padding: 5px 0 5px 10px ;
+>>>>>>> b01447c29e274c3f446a50a51d26b72b8a316d33
 }
 
 .passw button{
   margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 15px;
 }
 .card_passw{
   display: flex;
   justify-content:center;
   gap: 15px;
+}
+.card_passw label{
+  font-size: 30px;
 }
