@@ -28,9 +28,6 @@ const Card_Pass = () => {
     setColor(randomColor)
   }, [valueText])
 
-
-
-
   return (
     <div className='card_passw' style={{backgroundColor:color}}>
         <label htmlFor="pass">Contraseña</label>
