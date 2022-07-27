@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 
 const Card_Pass = () => {
@@ -21,11 +21,18 @@ const Card_Pass = () => {
   }
 
   let ramdonColor = getRandomElement(colors)
-  const [color, setcolor] = useState(ramdonColor)
+  const [color, setColor] = useState(ramdonColor)
 
-   
+  useEffect(() => {
+    const randomColor = getRandomElement(colors)
+    setColor(randomColor)
+  }, [valueText])
+
+
+
+
   return (
-    <div className='card_passw'>
+    <div className='card_passw' style={{backgroundColor:color}}>
         <label htmlFor="pass">Contraseña</label>
         <div className="passw">
             <input className='passw_input' type={valueText}/>
