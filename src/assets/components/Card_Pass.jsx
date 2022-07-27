@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
+
 const Card_Pass = () => {
+
+  const colors = ["#845EC2", "#D65DB1", "#FF6F91", "#FF9671", "#FFC75F", "#F9F871"];
 
   const [valueText, setvalueText] = useState('password')
 
@@ -14,8 +17,13 @@ const Card_Pass = () => {
   }
   const getRandomElement = arr  => {
     const indexRamdon= Math.floor(Math.random ()* arr.length)
-    return
-}
+    return arr[indexRamdon]
+  }
+
+  let ramdonColor = getRandomElement(colors)
+  const [color, setcolor] = useState(ramdonColor)
+
+   
   return (
     <div className='card_passw'>
         <label htmlFor="pass">Contraseña</label>
